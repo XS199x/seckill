@@ -39,4 +39,6 @@ create table sucess_killed(
 )engine=innodb  default CHARSET=utf8 comment='秒杀成功明细表';
 
 --连接数据库控制台
-mysql -uroot -p
+mysql -uroot -p；
+
+--test
