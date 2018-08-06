@@ -1,0 +1,1175 @@
+[33mcommit b533d01e205995ac8487845c250f912efed294db[m
+Author: xufan <xufan17259@gmail.com>
+Date:   Mon Aug 6 09:16:45 2018 +0800
+
+    111
+
+[1mdiff --git a/README b/README[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9eceb06[m
+[1m--- /dev/null[m
+[1m+++ b/README[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mthis is a readme file![m
+[1mdiff --git a/src/main/sql/schema.sql b/src/main/sql/schema.sql[m
+[1mindex de1c693..a4d4de1 100644[m
+[1m--- a/src/main/sql/schema.sql[m
+[1m+++ b/src/main/sql/schema.sql[m
+[36m@@ -1,4 +1,4 @@[m
+[31m---数据库初始化脚本[m
+[32m+[m[32m﻿--数据库初始化脚本[m
+ [m
+ --创建数据库[m
+ create database seckill;[m
+[36m@@ -41,4 +41,4 @@[m [mcreate table sucess_killed([m
+ --连接数据库控制台[m
+ mysql -uroot -p；[m
+ [m
+[31m---test[m
+\ No newline at end of file[m
+[32m+[m[32m--test1[m
+\ No newline at end of file[m
+
+[33mcommit 81ca078d3d776e6140dfe0d464668f6f9c282e8f[m
+Author: xufan <xufan17259@gmail.com>
+Date:   Fri Aug 3 11:21:08 2018 +0800
+
+    test
+    i
+
+[1mdiff --git a/src/main/sql/schema.sql b/src/main/sql/schema.sql[m
+[1mindex 0c6c2dd..de1c693 100644[m
+[1m--- a/src/main/sql/schema.sql[m
+[1m+++ b/src/main/sql/schema.sql[m
+[36m@@ -39,4 +39,6 @@[m [mcreate table sucess_killed([m
+ )engine=innodb  default CHARSET=utf8 comment='秒杀成功明细表';[m
+ [m
+ --连接数据库控制台[m
+[31m-mysql -uroot -p[m
+\ No newline at end of file[m
+[32m+[m[32mmysql -uroot -p；[m
+[32m+[m
+[32m+[m[32m--test[m
+\ No newline at end of file[m
+
+[33mcommit 4b896c1dc5f5447327d4bbabf46a945b41f1032c[m
+Author: XS199x <13971356684@163.com>
+Date:   Mon Jul 30 08:19:24 2018 +0800
+
+    first commit
+
+[1mdiff --git a/.idea/.name b/.idea/.name[m
+[1mnew file mode 100644[m
+[1mindex 0000000..18aed0f[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/.name[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mseckill[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/compiler.xml b/.idea/compiler.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8356bd9[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/compiler.xml[m
+[36m@@ -0,0 +1,13 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="CompilerConfiguration">[m
+[32m+[m[32m    <annotationProcessing>[m
+[32m+[m[32m      <profile name="Maven default annotation processors profile" enabled="true">[m
+[32m+[m[32m        <sourceOutputDir name="target/generated-sources/annotations" />[m
+[32m+[m[32m        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />[m
+[32m+[m[32m        <outputRelativeToContentRoot value="true" />[m
+[32m+[m[32m        <module name="IdeaSpace" />[m
+[32m+[m[32m      </profile>[m
+[32m+[m[32m    </annotationProcessing>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/encodings.xml b/.idea/encodings.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b26911b[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/encodings.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="Encoding">[m
+[32m+[m[32m    <file url="file://$PROJECT_DIR$" charset="UTF-8" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/misc.xml b/.idea/misc.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4b661a5[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/misc.xml[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ExternalStorageConfigurationManager" enabled="true" />[m
+[32m+[m[32m  <component name="MavenProjectsManager">[m
+[32m+[m[32m    <option name="originalFiles">[m
+[32m+[m[32m      <list>[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/pom.xml" />[m
+[32m+[m[32m      </list>[m
+[32m+[m[32m    </option>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">[m
+[32m+[m[32m    <output url="file://$PROJECT_DIR$/out" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e96534f[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/uiDesigner.xml[m
+[36m@@ -0,0 +1,124 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="Palette2">[m
+[32m+[m[32m    <group name="Swing">[m
+[32m+[m[32m      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">[m
+[32m+[m[32m        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />[m
+[32m+[m[32m        <initial-values>[m
+[32m+[m[32m          <property name="text" value="Button" />[m
+[32m+[m[32m        </initial-values>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />[m
+[32m+[m[32m        <initial-values>[m
+[32m+[m[32m          <property name="text" value="RadioButton" />[m
+[32m+[m[32m        </initial-values>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />[m
+[32m+[m[32m        <initial-values>[m
+[32m+[m[32m          <property name="text" value="CheckBox" />[m
+[32m+[m[32m        </initial-values>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />[m
+[32m+[m[32m        <initial-values>[m
+[32m+[m[32m          <property name="text" value="Label" />[m
+[32m+[m[32m        </initial-values>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">[m
+[32m+[m[32m          <preferred-size width="150" height="-1" />[m
+[32m+[m[32m        </default-constraints>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">[m
+[32m+[m[32m          <preferred-size width="150" height="-1" />[m
+[32m+[m[32m        </default-constraints>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">[m
+[32m+[m[32m          <preferred-size width="150" height="-1" />[m
+[32m+[m[32m        </default-constraints>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">[m
+[32m+[m[32m        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">[m
+[32m+[m[32m          <preferred-size width="150" height="50" />[m
+[32m+[m[32m        </default-constraints>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">[m
+[32m+[m[32m        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">[m
+[32m+[m[32m          <preferred-size width="150" height="50" />[m
+[32m+[m[32m        </default-constraints>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">[m
+[32m+[m[32m        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">[m
+[32m+[m[32m          <preferred-size width="150" height="50" />[m
+[32m+[m[32m        </default-constraints>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">[m
+[32m+[m[32m          <preferred-size width="150" height="50" />[m
+[32m+[m[32m        </default-constraints>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">[m
+[32m+[m[32m          <preferred-size width="150" height="50" />[m
+[32m+[m[32m        </default-constraints>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">[m
+[32m+[m[32m          <preferred-size width="150" height="50" />[m
+[32m+[m[32m        </default-constraints>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">[m
+[32m+[m[32m          <preferred-size width="200" height="200" />[m
+[32m+[m[32m        </default-constraints>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">[m
+[32m+[m[32m          <preferred-size width="200" height="200" />[m
+[32m+[m[32m        </default-constraints>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">[m
+[32m+[m[32m          <preferred-size width="-1" height="20" />[m
+[32m+[m[32m        </default-constraints>[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">[m
+[32m+[m[32m        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />[m
+[32m+[m[32m      </item>[m
+[32m+[m[32m    </group>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a6b2b9a[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -0,0 +1,530 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ChangeListManager">[m
+[32m+[m[32m    <list default="true" id="2e43f50b-59ae-45a7-8734-096efa130fd3" name="Default" comment="" />[m
+[32m+[m[32m    <ignored path="$PROJECT_DIR$/out/" />[m
+[32m+[m[32m    <ignored path="$PROJECT_DIR$/target/" />[m
+[32m+[m[32m    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />[m
+[32m+[m[32m    <option name="TRACKING_ENABLED" value="true" />[m
+[32m+[m[32m    <option name="SHOW_DIALOG" value="false" />[m
+[32m+[m[32m    <option name="HIGHLIGHT_CONFLICTS" value="true" />[m
+[32m+[m[32m    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />[m
+[32m+[m[32m    <option name="LAST_RESOLUTION" value="IGNORE" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="FileEditorManager">[m
+[32m+[m[32m    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">[m
+[32m+[m[32m      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/pom.xml">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="483">[m
+[32m+[m[32m              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/src/main/sql/schema.sql">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="173">[m
+[32m+[m[32m              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="Seckill.java" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/entity/Seckill.java">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="42">[m
+[32m+[m[32m              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="SuccessKilled.java" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/entity/SuccessKilled.java">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="231">[m
+[32m+[m[32m              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />[m
+[32m+[m[32m              <folding>[m
+[32m+[m[32m                <element signature="e#180#181#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#212#213#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#260#261#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#302#303#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#336#337#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#368#369#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#416#417#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#458#459#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#489#490#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#517#518#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#558#559#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#592#593#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#627#628#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#660#661#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#710#711#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#754#755#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#1128#1129#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#1158#1159#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#1205#1206#0" expanded="true" />[m
+[32m+[m[32m                <element signature="e#1243#1244#0" expanded="true" />[m
+[32m+[m[32m              </folding>[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="SeckillDao.java" pinned="false" current-in-tab="true">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/dao/SeckillDao.java">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="147">[m
+[32m+[m[32m              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />[m
+[32m+[m[32m              <folding>[m
+[32m+[m[32m                <element signature="imports" expanded="true" />[m
+[32m+[m[32m              </folding>[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="SuccessKilledDao.java" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/dao/SuccessKilledDao.java">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="147">[m
+[32m+[m[32m              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="63">[m
+[32m+[m[32m              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+[32m+[m[32m    </leaf>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="FileTemplateManagerImpl">[m
+[32m+[m[32m    <option name="RECENT_TEMPLATES">[m
+[32m+[m[32m      <list>[m
+[32m+[m[32m        <option value="Class" />[m
+[32m+[m[32m        <option value="Interface" />[m
+[32m+[m[32m      </list>[m
+[32m+[m[32m    </option>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="IdeDocumentHistory">[m
+[32m+[m[32m    <option name="CHANGED_PATHS">[m
+[32m+[m[32m      <list>[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/pom.xml" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/src/main/sql/schema.sql" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/src/main/java/org/seckill/entity/SucessKilled.java" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/src/main/java/org/seckill/dao/SuccessKilledDao.java" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/src/main/java/org/seckill/dao/SeckillDao.java" />[m
+[32m+[m[32m      </list>[m
+[32m+[m[32m    </option>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="MavenImportPreferences">[m
+[32m+[m[32m    <option name="generalSettings">[m
+[32m+[m[32m      <MavenGeneralSettings>[m
+[32m+[m[32m        <option name="localRepository" value="$MAVEN_REPOSITORY$" />[m
+[32m+[m[32m        <option name="mavenHome" value="D:/apache-maven-3.2.5" />[m
+[32m+[m[32m        <option name="userSettingsFile" value="$MAVEN_REPOSITORY$/settings.xml" />[m
+[32m+[m[32m      </MavenGeneralSettings>[m
+[32m+[m[32m    </option>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="ProjectFrameBounds">[m
+[32m+[m[32m    <option name="x" value="8" />[m
+[32m+[m[32m    <option name="y" value="28" />[m
+[32m+[m[32m    <option name="width" value="1358" />[m
+[32m+[m[32m    <option name="height" value="688" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="ProjectView">[m
+[32m+[m[32m    <navigator proportions="" version="1">[m
+[32m+[m[32m      <foldersAlwaysOnTop value="true" />[m
+[32m+[m[32m    </navigator>[m
+[32m+[m[32m    <panes>[m
+[32m+[m[32m      <pane id="ProjectPane">[m
+[32m+[m[32m        <subPane>[m
+[32m+[m[32m          <expand>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="IdeaSpace" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="IdeaSpace" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="IdeaSpace" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="main" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="IdeaSpace" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="main" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="java" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="IdeaSpace" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="main" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="java" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="seckill" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="IdeaSpace" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="main" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="java" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="seckill" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="dao" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="IdeaSpace" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="main" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="java" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="seckill" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="entity" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="IdeaSpace" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="main" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="sql" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m            <path>[m
+[32m+[m[32m              <item name="seckill" type="b2602c69:ProjectViewProjectNode" />[m
+[32m+[m[32m              <item name="IdeaSpace" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="src" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m              <item name="test" type="462c0819:PsiDirectoryNode" />[m
+[32m+[m[32m            </path>[m
+[32m+[m[32m          </expand>[m
+[32m+[m[32m          <select />[m
+[32m+[m[32m        </subPane>[m
+[32m+[m[32m      </pane>[m
+[32m+[m[32m      <pane id="Scope" />[m
+[32m+[m[32m      <pane id="AndroidView" />[m
+[32m+[m[32m      <pane id="PackagesPane" />[m
+[32m+[m[32m    </panes>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="PropertiesComponent">[m
+[32m+[m[32m    <property name="project.structure.last.edited" value="Modules" />[m
+[32m+[m[32m    <property name="project.structure.proportion" value="0.15" />[m
+[32m+[m[32m    <property name="project.structure.side.proportion" value="0.2" />[m
+[32m+[m[32m    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="RunDashboard">[m
+[32m+[m[32m    <option name="ruleStates">[m
+[32m+[m[32m      <list>[m
+[32m+[m[32m        <RuleState>[m
+[32m+[m[32m          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />[m
+[32m+[m[32m        </RuleState>[m
+[32m+[m[32m        <RuleState>[m
+[32m+[m[32m          <option name="name" value="StatusDashboardGroupingRule" />[m
+[32m+[m[32m        </RuleState>[m
+[32m+[m[32m      </list>[m
+[32m+[m[32m    </option>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="RunManager">[m
+[32m+[m[32m    <configuration default="true" type="Application" factoryName="Application">[m
+[32m+[m[32m      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />[m
+[32m+[m[32m    </configuration>[m
+[32m+[m[32m    <configuration default="true" type="JUnit" factoryName="JUnit">[m
+[32m+[m[32m      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />[m
+[32m+[m[32m      <option name="ALTERNATIVE_JRE_PATH" />[m
+[32m+[m[32m      <option name="PACKAGE_NAME" />[m
+[32m+[m[32m      <option name="MAIN_CLASS_NAME" />[m
+[32m+[m[32m      <option name="METHOD_NAME" />[m
+[32m+[m[32m      <option name="TEST_OBJECT" value="class" />[m
+[32m+[m[32m      <option name="VM_PARAMETERS" value="-ea" />[m
+[32m+[m[32m      <option name="PARAMETERS" />[m
+[32m+[m[32m      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />[m
+[32m+[m[32m      <option name="PASS_PARENT_ENVS" value="true" />[m
+[32m+[m[32m      <option name="TEST_SEARCH_SCOPE">[m
+[32m+[m[32m        <value defaultName="singleModule" />[m
+[32m+[m[32m      </option>[m
+[32m+[m[32m      <patterns />[m
+[32m+[m[32m    </configuration>[m
+[32m+[m[32m    <configuration default="true" type="TestNG" factoryName="TestNG">[m
+[32m+[m[32m      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />[m
+[32m+[m[32m      <option name="ALTERNATIVE_JRE_PATH" />[m
+[32m+[m[32m      <option name="SUITE_NAME" />[m
+[32m+[m[32m      <option name="PACKAGE_NAME" />[m
+[32m+[m[32m      <option name="MAIN_CLASS_NAME" />[m
+[32m+[m[32m      <option name="METHOD_NAME" />[m
+[32m+[m[32m      <option name="GROUP_NAME" />[m
+[32m+[m[32m      <option name="TEST_OBJECT" value="CLASS" />[m
+[32m+[m[32m      <option name="VM_PARAMETERS" value="-ea" />[m
+[32m+[m[32m      <option name="PARAMETERS" />[m
+[32m+[m[32m      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />[m
+[32m+[m[32m      <option name="OUTPUT_DIRECTORY" />[m
+[32m+[m[32m      <option name="PASS_PARENT_ENVS" value="true" />[m
+[32m+[m[32m      <option name="TEST_SEARCH_SCOPE">[m
+[32m+[m[32m        <value defaultName="singleModule" />[m
+[32m+[m[32m      </option>[m
+[32m+[m[32m      <option name="USE_DEFAULT_REPORTERS" value="false" />[m
+[32m+[m[32m      <option name="PROPERTIES_FILE" />[m
+[32m+[m[32m      <properties />[m
+[32m+[m[32m      <listeners />[m
+[32m+[m[32m    </configuration>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="SvnConfiguration">[m
+[32m+[m[32m    <configuration />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="TaskManager">[m
+[32m+[m[32m    <task active="true" id="Default" summary="Default task">[m
+[32m+[m[32m      <changelist id="2e43f50b-59ae-45a7-8734-096efa130fd3" name="Default" comment="" />[m
+[32m+[m[32m      <created>1532273418417</created>[m
+[32m+[m[32m      <option name="number" value="Default" />[m
+[32m+[m[32m      <option name="presentableId" value="Default" />[m
+[32m+[m[32m      <updated>1532273418417</updated>[m
+[32m+[m[32m    </task>[m
+[32m+[m[32m    <servers />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="ToolWindowManager">[m
+[32m+[m[32m    <frame x="8" y="28" width="1358" height="688" extended-state="0" />[m
+[32m+[m[32m    <editor active="true" />[m
+[32m+[m[32m    <layout>[m
+[32m+[m[32m      <window_info anchor="right" id="Palette" order="3" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="TODO" order="6" />[m
+[32m+[m[32m      <window_info anchor="right" id="Palette&#9;" order="3" />[m
+[32m+[m[32m      <window_info id="Image Layers" order="2" />[m
+[32m+[m[32m      <window_info anchor="right" id="Capture Analysis" order="3" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />[m
+[32m+[m[32m      <window_info anchor="right" id="Maven Projects" order="3" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Run" order="2" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Terminal" order="7" />[m
+[32m+[m[32m      <window_info id="Capture Tool" order="2" />[m
+[32m+[m[32m      <window_info id="Designer" order="2" />[m
+[32m+[m[32m      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24292101" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Find" order="1" weight="0.32976827" />[m
+[32m+[m[32m      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />[m
+[32m+[m[32m      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />[m
+[32m+[m[32m      <window_info id="UI Designer" order="2" />[m
+[32m+[m[32m      <window_info anchor="right" id="Theme Preview" order="3" />[m
+[32m+[m[32m      <window_info id="Favorites" order="2" side_tool="true" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />[m
+[32m+[m[32m      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Messages" order="7" weight="0.071428575" />[m
+[32m+[m[32m      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Message" order="0" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />[m
+[32m+[m[32m      <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.3292683" />[m
+[32m+[m[32m    </layout>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="VcsContentAnnotationSettings">[m
+[32m+[m[32m    <option name="myLimit" value="2678400000" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="editorHistoryManager">[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/pom.xml">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="483">[m
+[32m+[m[32m          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="63">[m
+[32m+[m[32m          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/sql/schema.sql">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="168">[m
+[32m+[m[32m          <caret line="8" selection-start-line="8" selection-end-line="19" selection-end-column="72" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/pom.xml">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="483">[m
+[32m+[m[32m          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="63">[m
+[32m+[m[32m          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/sql/schema.sql">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="168">[m
+[32m+[m[32m          <caret line="8" selection-start-line="8" selection-end-line="19" selection-end-column="76" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="63">[m
+[32m+[m[32m          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/pom.xml">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="483">[m
+[32m+[m[32m          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/dao.java">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="42">[m
+[32m+[m[32m          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/sql/schema.sql">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="173">[m
+[32m+[m[32m          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/entity/Seckill.java">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="42">[m
+[32m+[m[32m          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/entity/SuccessKilled.java">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="231">[m
+[32m+[m[32m          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />[m
+[32m+[m[32m          <folding>[m
+[32m+[m[32m            <element signature="e#180#181#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#212#213#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#260#261#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#302#303#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#336#337#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#368#369#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#416#417#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#458#459#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#489#490#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#517#518#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#558#559#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#592#593#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#627#628#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#660#661#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#710#711#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#754#755#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#1128#1129#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#1158#1159#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#1205#1206#0" expanded="true" />[m
+[32m+[m[32m            <element signature="e#1243#1244#0" expanded="true" />[m
+[32m+[m[32m          </folding>[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/dao/SuccessKilledDao.java">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="147">[m
+[32m+[m[32m          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/src/main/java/org/seckill/dao/SeckillDao.java">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="147">[m
+[32m+[m[32m          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />[m
+[32m+[m[32m          <folding>[m
+[32m+[m[32m            <element signature="imports" expanded="true" />[m
+[32m+[m[32m          </folding>[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m  <component name="masterDetails">[m
+[32m+[m[32m    <states>[m
+[32m+[m[32m      <state key="ArtifactsStructureConfigurable.UI">[m
+[32m+[m[32m        <settings>[m
+[32m+[m[32m          <artifact-editor />[m
+[32m+[m[32m          <splitter-proportions>[m
+[32m+[m[32m            <option name="proportions">[m
+[32m+[m[32m              <list>[m
+[32m+[m[32m                <option value="0.2" />[m
+[32m+[m[32m              </list>[m
+[32m+[m[32m            </option>[m
+[32m+[m[32m          </splitter-proportions>[m
+[32m+[m[32m        </settings>[m
+[32m+[m[32m      </state>[m
+[32m+[m[32m      <state key="FacetStructureConfigurable.UI">[m
+[32m+[m[32m        <settings>[m
+[32m+[m[32m          <last-edited>No facets are configured</last-edited>[m
+[32m+[m[32m          <splitter-proportions>[m
+[32m+[m[32m            <option name="proportions">[m
+[32m+[m[32m              <list>[m
+[32m+[m[32m                <option value="0.2" />[m
+[32m+[m[32m              </list>[m
+[32m+[m[32m            </option>[m
+[32m+[m[32m          </splitter-proportions>[m
+[32m+[m[32m        </settings>[m
+[32m+[m[32m      </state>[m
+[32m+[m[32m      <state key="GlobalLibrariesConfigurable.UI">[m
+[32m+[m[32m        <settings>[m
+[32m+[m[32m          <splitter-proportions>[m
+[32m+[m[32m            <option name="proportions">[m
+[32m+[m[32m              <list>[m
+[32m+[m[32m                <option value="0.2" />[m
+[32m+[m[32m              </list>[m
+[32m+[m[32m            </option>[m
+[32m+[m[32m          </splitter-proportions>[m
+[32m+[m[32m        </settings>[m
+[32m+[m[32m      </state>[m
+[32m+[m[32m      <state key="JdkListConfigurable.UI">[m
+[32m+[m[32m        <settings>[m
+[32m+[m[32m          <last-edited>1.8</last-edited>[m
+[32m+[m[32m          <splitter-proportions>[m
+[32m+[m[32m            <option name="proportions">[m
+[32m+[m[32m              <list>[m
+[32m+[m[32m                <option value="0.2" />[m
+[32m+[m[32m              </list>[m
+[32m+[m[32m            </option>[m
+[32m+[m[32m          </splitter-proportions>[m
+[32m+[m[32m        </settings>[m
+[32m+[m[32m      </state>[m
+[32m+[m[32m      <state key="ModuleStructureConfigurable.UI">[m
+[32m+[m[32m        <settings>[m
+[32m+[m[32m          <last-edited>IdeaSpace</last-edited>[m
+[32m+[m[32m          <splitter-proportions>[m
+[32m+[m[32m            <option name="proportions">[m
+[32m+[m[32m              <list>[m
+[32m+[m[32m                <option value="0.2" />[m
+[32m+[m[32m                <option value="0.6" />[m
+[32m+[m[32m              </list>[m
+[32m+[m[32m            </option>[m
+[32m+[m[32m          </splitter-proportions>[m
+[32m+[m[32m        </settings>[m
+[32m+[m[32m      </state>[m
+[32m+[m[32m      <state key="ProjectLibrariesConfigurable.UI">[m
+[32m+[m[32m        <settings>[m
+[32m+[m[32m          <last-edited>Maven: junit:junit:4.11</last-edited>[m
+[32m+[m[32m          <splitter-proportions>[m
+[32m+[m[32m            <option name="proportions">[m
+[32m+[m[32m              <list>[m
+[32m+[m[32m                <option value="0.2" />[m
+[32m+[m[32m              </list>[m
+[32m+[m[32m            </option>[m
+[32m+[m[32m          </splitter-proportions>[m
+[32m+[m[32m        </settings>[m
+[32m+[m[32m      </state>[m
+[32m+[m[32m    </states>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/IdeaSpace.iml b/IdeaSpace.iml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..78b2cc5[m
+[1m--- /dev/null[m
+[1m+++ b/IdeaSpace.iml[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<module type="JAVA_MODULE" version="4" />[m
+\ No newline at end of file[m
+[1mdiff --git a/pom.xml b/pom.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..796bd4a[m
+[1m--- /dev/null[m
+[1m+++ b/pom.xml[m
+[36m@@ -0,0 +1,177 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m
+[32m+[m[32m<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"[m
+[32m+[m[32m  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">[m
+[32m+[m[32m  <modelVersion>4.0.0</modelVersion>[m
+[32m+[m
+[32m+[m[32m  <groupId>org,seckill</groupId>[m
+[32m+[m[32m  <artifactId>seckill</artifactId>[m
+[32m+[m[32m  <version>1.0-SNAPSHOT</version>[m
+[32m+[m[32m  <packaging>war</packaging>[m
+[32m+[m
+[32m+[m[32m  <name>seckill Maven Webapp</name>[m
+[32m+[m[32m  <!-- FIXME change it to the project's website -->[m
+[32m+[m[32m  <url>http://www.example.com</url>[m
+[32m+[m
+[32m+[m[32m  <properties>[m
+[32m+[m[32m    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>[m
+[32m+[m[32m    <maven.compiler.source>1.7</maven.compiler.source>[m
+[32m+[m[32m    <maven.compiler.target>1.7</maven.compiler.target>[m
+[32m+[m[32m  </properties>[m
+[32m+[m
+[32m+[m[32m  <dependencies>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>junit</groupId>[m
+[32m+[m[32m      <artifactId>junit</artifactId>[m
+[32m+[m[32m      <version>4.11</version>[m
+[32m+[m[32m      <scope>test</scope>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <!--补全项目依赖-->[m
+[32m+[m[32m    <!--1:日志  slf4j.log4j,logback,common-logging-->[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>org.slf4j</groupId>[m
+[32m+[m[32m      <artifactId>slf4j-api</artifactId>[m
+[32m+[m[32m      <version>1.7.12</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>ch.qos.logback</groupId>[m
+[32m+[m[32m      <artifactId>logback-core</artifactId>[m
+[32m+[m[32m      <version>1.1.1</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>ch.qos.logback</groupId>[m
+[32m+[m[32m      <artifactId>logback-classic</artifactId>[m
+[32m+[m[32m      <version>1.1.1</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>mysql</groupId>[m
+[32m+[m[32m      <artifactId>mysql-connector-java</artifactId>[m
+[32m+[m[32m      <version>5.1.35</version>[m
+[32m+[m[32m      <scope>runtime</scope>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>c3p0</groupId>[m
+[32m+[m[32m      <artifactId>c3p0</artifactId>[m
+[32m+[m[32m      <version>0.9.1.2</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <!--DAO层依赖-->[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>org.mybatis</groupId>[m
+[32m+[m[32m      <artifactId>mybatis</artifactId>[m
+[32m+[m[32m      <version>3.3.0</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>org.mybatis</groupId>[m
+[32m+[m[32m      <artifactId>mybatis-spring</artifactId>[m
+[32m+[m[32m      <version>1.2.3</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <!--Servlet web 相关依赖-->[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>taglibs</groupId>[m
+[32m+[m[32m      <artifactId>standard</artifactId>[m
+[32m+[m[32m      <version>1.1.2</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>jstl</groupId>[m
+[32m+[m[32m      <artifactId>jstl</artifactId>[m
+[32m+[m[32m      <version>1.2</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>com.fasterxml.jackson.core</groupId>[m
+[32m+[m[32m      <artifactId>jackson-databind</artifactId>[m
+[32m+[m[32m      <version>2.5.4</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>javax.servlet</groupId>[m
+[32m+[m[32m      <artifactId>javax.servlet-api</artifactId>[m
+[32m+[m[32m      <version>3.1.0</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m
+[32m+[m[32m    <!--4.spring 依赖 -->[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>org.springframework</groupId>[m
+[32m+[m[32m      <artifactId>spring-core</artifactId>[m
+[32m+[m[32m      <version>4.1.7.RELEASE</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>org.springframework</groupId>[m
+[32m+[m[32m      <artifactId>spring-beans</artifactId>[m
+[32m+[m[32m      <version>4.1.7.RELEASE</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>org.springframework</groupId>[m
+[32m+[m[32m      <artifactId>spring-context</artifactId>[m
+[32m+[m[32m      <version>4.1.7.RELEASE</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>org.springframework</groupId>[m
+[32m+[m[32m      <artifactId>spring-jdbc</artifactId>[m
+[32m+[m[32m      <version>4.1.7.RELEASE</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>org.springframework</groupId>[m
+[32m+[m[32m      <artifactId>spring-tx</artifactId>[m
+[32m+[m[32m      <version>4.1.7.RELEASE</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <!--spring web-->[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>org.springframework</groupId>[m
+[32m+[m[32m      <artifactId>spring-web</artifactId>[m
+[32m+[m[32m      <version>4.1.7.RELEASE</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>org.springframework</groupId>[m
+[32m+[m[32m      <artifactId>spring-webmvc</artifactId>[m
+[32m+[m[32m      <version>4.1.7.RELEASE</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>org.springframework</groupId>[m
+[32m+[m[32m      <artifactId>spring-test</artifactId>[m
+[32m+[m[32m      <version>4.1.7.RELEASE</version>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m  </dependencies>[m
+[32m+[m
+[32m+[m[32m  <repositories>[m
+[32m+[m[32m    <repository>[m
+[32m+[m[32m      <id>JBoss repository</id>[m
+[32m+[m[32m      <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>[m
+[32m+[m[32m    </repository>[m
+[32m+[m[32m  </repositories>[m
+[32m+[m
+[32m+[m[32m  <build>[m
+[32m+[m[32m    <finalName>seckill</finalName>[m
+[32m+[m[32m    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->[m
+[32m+[m[32m      <plugins>[m
+[32m+[m[32m        <plugin>[m
+[32m+[m[32m          <artifactId>maven-clean-plugin</artifactId>[m
+[32m+[m[32m          <version>3.0.0</version>[m
+[32m+[m[32m        </plugin>[m
+[32m+[m[32m        <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->[m
+[32m+[m[32m        <plugin>[m
+[32m+[m[32m          <artifactId>maven-resources-plugin</artifactId>[m
+[32m+[m[32m          <version>3.0.2</version>[m
+[32m+[m[32m        </plugin>[m
+[32m+[m[32m        <plugin>[m
+[32m+[m[32m          <artifactId>maven-compiler-plugin</artifactId>[m
+[32m+[m[32m          <version>3.7.0</version>[m
+[32m+[m[32m        </plugin>[m
+[32m+[m[32m        <plugin>[m
+[32m+[m[32m          <artifactId>maven-surefire-plugin</artifactId>[m
+[32m+[m[32m          <version>2.20.1</version>[m
+[32m+[m[32m        </plugin>[m
+[32m+[m[32m        <plugin>[m
+[32m+[m[32m          <artifactId>maven-war-plugin</artifactId>[m
+[32m+[m[32m          <version>3.2.0</version>[m
+[32m+[m[32m        </plugin>[m
+[32m+[m[32m        <plugin>[m
+[32m+[m[32m          <artifactId>maven-install-plugin</artifactId>[m
+[32m+[m[32m          <version>2.5.2</version>[m
+[32m+[m[32m        </plugin>[m
+[32m+[m[32m        <plugin>[m
+[32m+[m[32m          <artifactId>maven-deploy-plugin</artifactId>[m
+[32m+[m[32m          <version>2.8.2</version>[m
+[32m+[m[32m        </plugin>[m
+[32m+[m[32m      </plugins>[m
+[32m+[m[32m    </pluginManagement>[m
+[32m+[m[32m  </build>[m
+[32m+[m[32m</project>[m
+[1mdiff --git a/src/main/java/org/seckill/dao/SeckillDao.java b/src/main/java/org/seckill/dao/SeckillDao.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..193b94f[m
+[1m--- /dev/null[m
+[1m+++ b/src/main/java/org/seckill/dao/SeckillDao.java[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32mpackage org.seckill.dao;[m
+[32m+[m
+[32m+[m[32mimport org.seckill.entity.Seckill;[m
+[32m+[m
+[32m+[m[32mimport java.util.Date;[m
+[32m+[m[32mimport java.util.List;[m
+[32m+[m
+[32m+[m[32mpublic interface SeckillDao {[m
+[32m+[m
+[32m+[m[32m    int reduceNumber(long seckillId,Date killTime);[m
+[32m+[m
+[32m+[m[32m    Seckill queryById(long seckillId);[m
+[32m+[m
+[32m+[m[32m    List<Seckill>  queryAll(int offset,int limit);[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/main/java/org/seckill/dao/SuccessKilledDao.java b/src/main/java/org/seckill/dao/SuccessKilledDao.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3cd8c44[m
+[1m--- /dev/null[m
+[1m+++ b/src/main/java/org/seckill/dao/SuccessKilledDao.java[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32mpackage org.seckill.dao;[m
+[32m+[m
+[32m+[m[32mimport org.seckill.entity.SuccessKilled;[m
+[32m+[m
+[32m+[m[32mpublic interface SuccessKilledDao {[m
+[32m+[m[32m    int insertSuccessKilled(long seckillId,long userPhone);[m
+[32m+[m
+[32m+[m[32m    SuccessKilled queryByIdWithSeckill(long seckillId);[m
+[32m+[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/main/java/org/seckill/entity/Seckill.java b/src/main/java/org/seckill/entity/Seckill.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2961784[m
+[1m--- /dev/null[m
+[1m+++ b/src/main/java/org/seckill/entity/Seckill.java[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32mpackage org.seckill.entity;[m
+[32m+[m
+[32m+[m[32mpublic class Seckill {[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/main/java/org/seckill/entity/SuccessKilled.java b/src/main/java/org/seckill/entity/SuccessKilled.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6d45887[m
+[1m--- /dev/null[m
+[1m+++ b/src/main/java/org/seckill/entity/SuccessKilled.java[m
+[36m@@ -0,0 +1,67 @@[m
+[32m+[m[32mpackage org.seckill.entity;[m
+[32m+[m
+[32m+[m[32mimport java.util.Date;[m
+[32m+[m
+[32m+[m[32mpublic class SuccessKilled {[m
+[32m+[m[32m    private long seckillId;[m
+[32m+[m
+[32m+[m[32m    private long userPhone;[m
+[32m+[m
+[32m+[m[32m    private short state;[m
+[32m+[m
+[32m+[m[32m    private Date createTime;[m
+[32m+[m
+[32m+[m[32m    private Seckill seckill;[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    @Override[m
+[32m+[m[32m    public String toString() {[m
+[32m+[m[32m        return "SuccessKilled{" +[m
+[32m+[m[32m                "seckillId=" + seckillId +[m
+[32m+[m[32m                ", userPhone=" + userPhone +[m
+[32m+[m[32m                ", state=" + state +[m
+[32m+[m[32m                ", createTime=" + createTime +[m
+[32m+[m[32m                '}';[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public long getSeckillId() {[m
+[32m+[m[32m        return seckillId;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public void setSeckillId(long seckillId) {[m
+[32m+[m[32m        this.seckillId = seckillId;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public long getUserPhone() {[m
+[32m+[m[32m        return userPhone;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public void setUserPhone(long userPhone) {[m
+[32m+[m[32m        this.userPhone = userPhone;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public short getState() {[m
+[32m+[m[32m        return state;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public void setState(short state) {[m
+[32m+[m[32m        this.state = state;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public Date getCreateTime() {[m
+[32m+[m[32m        return createTime;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public void setCreateTime(Date createTime) {[m
+[32m+[m[32m        this.createTime = createTime;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public Seckill getSeckill() {[m
+[32m+[m[32m        return seckill;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public void setSeckill(Seckill seckill) {[m
+[32m+[m[32m        this.seckill = seckill;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/main/sql/schema.sql b/src/main/sql/schema.sql[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0c6c2dd[m
+[1m--- /dev/null[m
+[1m+++ b/src/main/sql/schema.sql[m
+[36m@@ -0,0 +1,42 @@[m
+[32m+[m[32m--数据库初始化脚本[m
+[32m+[m
+[32m+[m[32m--创建数据库[m
+[32m+[m[32mcreate database seckill;[m
+[32m+[m
+[32m+[m[32m--使用数据库[m
+[32m+[m[32muse seckill;[m
+[32m+[m[32m--创建秒杀库存表[m
+[32m+[m[32mcreate table seckill([m
+[32m+[m[32m    `seckill_id` bigint not null auto_increment comment '商品库存id',[m
+[32m+[m[32m    `name` varchar(120) not null comment '商品名称',[m
+[32m+[m[32m    `number` int not null comment '库存数量',[m
+[32m+[m[32m    `start_time` timestamp not null comment '秒杀开始时间',[m
+[32m+[m[32m    `end_time` timestamp not null comment '秒杀结束时间',[m
+[32m+[m[32m    `create_time` timestamp not null default current_timestamp comment '创建时间',[m
+[32m+[m[32m    primary key (seckill_id),[m
+[32m+[m[32m    key idx_start_time(start_time),[m
+[32m+[m[32m    key idx_end_time(end_time),[m
+[32m+[m[32m    key idx_create_time(create_time)[m
+[32m+[m[32m)engine=InnoDB auto_increment=1000 default CHARSET=utf8 comment='秒杀库存表';[m
+[32m+[m
+[32m+[m[32m--初始化数据[m
+[32m+[m[32minsert into seckill (name,number,start_time,end_time)[m
+[32m+[m[32mvalues[m
+[32m+[m[32m    ('1000元秒杀iphone6',100,'2015-11-01 00:00:00','2015-11-02 00:00:00'),[m
+[32m+[m[32m    ('500元秒杀ipad2',200,'2015-11-01 00:00:00','2015-11-02 00:00:00'),[m
+[32m+[m[32m    ('300元秒杀小米4',300,'2015-11-01 00:00:00','2015-11-02 00:00:00'),[m
+[32m+[m[32m    ('200元秒杀红米',400,'2015-11-01 00:00:00','2015-11-02 00:00:00');[m
+[32m+[m
+[32m+[m[32m--秒杀成功明细表[m
+[32m+[m[32m--用户登录认证相关信息[m
+[32m+[m[32mcreate table sucess_killed([m
+[32m+[m[32m    `seckill_id` bigint not null comment '秒杀商品id',[m
+[32m+[m[32m    `user_phone` bigint not null comment '用户手机号',[m
+[32m+[m[32m    `state` tinyint not null default -1 comment '状态标示：-1无效 0成功 1已付款',[m
+[32m+[m[32m    `create_time` timestamp not null  comment '创建时间',[m
+[32m+[m[32m    primary key (seckill_id,user_phone),[m
+[32m+[m[32m    key idx_create_time(create_time)[m
+[32m+[m[32m)engine=innodb  default CHARSET=utf8 comment='秒杀成功明细表';[m
+[32m+[m
+[32m+[m[32m--连接数据库控制台[m
+[32m+[m[32mmysql -uroot -p[m
+\ No newline at end of file[m
+[1mdiff --git a/src/main/webapp/WEB-INF/web.xml b/src/main/webapp/WEB-INF/web.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ab5089b[m
+[1m--- /dev/null[m
+[1m+++ b/src/main/webapp/WEB-INF/web.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<web-app xmlns="http://java.sun.com/xml/ns/javaee"[m
+[32m+[m[32m         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.1"[m
+[32m+[m[32m         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"[m
+[32m+[m[32m          metadata-complete="true">[m
+[32m+[m
+[32m+[m[32m</web-app>[m
+\ No newline at end of file[m
+[1mdiff --git a/src/main/webapp/index.jsp b/src/main/webapp/index.jsp[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c38169b[m
+[1m--- /dev/null[m
+[1m+++ b/src/main/webapp/index.jsp[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32m<html>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m<h2>Hello World!</h2>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m

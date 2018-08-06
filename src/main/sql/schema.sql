@@ -41,4 +41,4 @@ create table sucess_killed(
 --连接数据库控制台
 mysql -uroot -p；
 
---test1
+--test3（2018-08-05 10：20）
