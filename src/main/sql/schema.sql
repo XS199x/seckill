@@ -1,4 +1,4 @@
---数据库初始化脚本
+﻿--数据库初始化脚本
 
 --创建数据库
 create database seckill;
@@ -41,4 +41,4 @@ create table sucess_killed(
 --连接数据库控制台
 mysql -uroot -p；
 
---test
+--test1
